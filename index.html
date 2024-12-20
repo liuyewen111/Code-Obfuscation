@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线代码混淆工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>在线代码混淆工具</h1>
+        
+        <div class="form-group">
+            <label for="inputCode">请输入代码：</label>
+            <textarea id="inputCode" rows="10" placeholder="在此输入代码"></textarea>
+        </div>
+
+        <div class="form-group">
+            <button onclick="obfuscateCode()">混淆代码</button>
+        </div>
+
+        <div class="form-group">
+            <label for="outputCode">混淆后的代码：</label>
+            <textarea id="outputCode" rows="10" readonly placeholder="混淆后的代码将在此显示"></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
